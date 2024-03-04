@@ -1,0 +1,88 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "preview": {
+            "assets": {
+              "mobileRectangle": {
+                "images": [
+                  {
+                    "source": {
+                      "location": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e8c3/3518e8f42286443aa11d5ff5fa62ff7e/APP_PREVIEW_IMAGE?versionId\u003dcctLtoWwwqlIMZSovght3Noz.4uIqhQQ\u0026X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Date\u003d20240304T122910Z\u0026X-Amz-SignedHeaders\u003dhost\u0026X-Amz-Expires\u003d7200\u0026X-Amz-Credential\u003dAKIAWBV6LQ4QNKISWWEW%2F20240304%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Signature\u003db98b1955371977b3deace46a7520117fc6fc5cc22c024d1e15ac58871a45f355",
+                      "type": "URI"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "summary": "The best music 24/7.",
+          "examplePhrases": [
+            "Alexa open Brian Graham Radio"
+          ],
+          "keywords": [],
+          "name": "B and O Radio",
+          "description": "Radio Player skill using the AudioPlayer interface",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:430132267332:function:160d522b-8d1e-45cb-9bb2-de7f37a314ac:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:430132267332:function:160d522b-8d1e-45cb-9bb2-de7f37a314ac:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:430132267332:function:160d522b-8d1e-45cb-9bb2-de7f37a314ac:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:430132267332:function:160d522b-8d1e-45cb-9bb2-de7f37a314ac:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://www.cdnusa.com/terms",
+          "privacyPolicyUrl": "http://www.cdnusa.com/privacy"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
